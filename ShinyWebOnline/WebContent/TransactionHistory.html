@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>Shiny Bank: Deposit form</title>
+<title>Shiny Bank: History</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -28,42 +28,22 @@ h1 {
 			<div>
 				<ul class="nav navbar-nav" style="font-family: Bookman">
 					<li><a href="Accounts.html" style="color: white"><b>Accounts</b></a></li>
-					<li class="active"><a href="DepositForm.html"
+					<li><a href="DepositForm.html"
 						style="color: white"><b>Deposit Form</b></a></li>
 					<li><a href="DepositConfirmation.html" style="color: white"><b>Deposit
 								Confirmation</b></a></li>
-					<li><a href="TransactionHistory.html" style="color: white"><b>Balance/Transaction
+					<li class="active"><a href="TransactionHistory.html" style="color: white"><b>Balance/Transaction
 								History</b></a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 <body>
-	<div class="container">
-		<div class="jumbotron">
-			<h1>Please complete the deposit form</h1>
-			<form role="form" style="margin-left: 30%">
-				<div class="form-group"style="width:30%">
-					<label for="number">Account Number:</label> <input type="text"
-						class="form-control" id="number"
-						placeholder="Enter the account number">
-				</div>
-				<div class="form-group" style="width: 30%">
-					<label for="amount">Amount to Deposit:</label> <input type="number"
-						class="form-control" id="amount" placeholder="Enter amount">
-				</div>
-				<div class="form-group" style="margin-right: 50%">
-					<div class="col-sm-offset-2 col-sm-10">
-						<p>
-							<a href="Accounts.html" class="btn pull-right btn-success btn-lg"
-								style="margin-left: 10%" role="button">Make Deposit</a> <a
-								href="Accounts.html" class="btn pull-right btn-warning btn-lg"
-								role="button">Cancel</a>
-						</p>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
+<div class="container">
+  <div class="jumbotron" style=background-color:#a6d2d2>
+    <h1>Transaction History Item Detail</h1>   
+    <p><a href="ItemTransaction.html" class="btn pull-left btn-primary btn-lg" role="button">Go to Item Detail Page</a></p>
+  </div>
+</div>
 </body>
 </html>
